@@ -4,11 +4,12 @@ version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: '>=2.19.5 <3.0.0'
+  sdk: ">=2.19.5 <3.0.0"
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  stormberry: ^0.13.0
 
 dev_dependencies:
+  build_runner: ^2.3.3
   lints: ^2.0.0
   test: ^1.21.0
