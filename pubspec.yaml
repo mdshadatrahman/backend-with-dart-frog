@@ -8,6 +8,8 @@ environment:
 
 dependencies:
   dart_frog: ^0.3.0
+  db:
+    path: packages/db
   postgres: ^2.6.1
   stormberry: ^0.13.0
 
